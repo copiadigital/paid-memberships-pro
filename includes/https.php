@@ -105,6 +105,11 @@ add_action( 'wp_print_scripts', 'pmpro_ssl_javascript_redirect' );
 function pmpro_check_site_url_for_https( $besecure = NULL ) {	
 	global $wpdb, $pmpro_siteurl;
 
+	//bedrock support
+	if( file_exists(__DIR__ . '/../../../mu-plugins/bedrock-autoloader.php') && class_exists('\Env\Env') ) {
+		$pmpro_siteurl = \Env\env('WP_HOME');
+	}
+
 	//need to get this from the database because we filter get_option
 	if( empty( $pmpro_siteurl ) ) {
 		$pmpro_siteurl = $wpdb->get_var( "SELECT option_value FROM $wpdb->options WHERE option_name = 'siteurl' LIMIT 1" );
