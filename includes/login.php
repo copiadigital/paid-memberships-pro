@@ -728,7 +728,7 @@ function pmpro_login_forms_handler_nav( $pmpro_form ) { ?>
 			}
 
 			if ( $pmpro_form != 'lost_password' ) {
-				$links['lost_password'] = sprintf( '<a href="%s">%s</a>', esc_url( add_query_arg( 'action', urlencode( 'reset_pass' ), pmpro_login_url() ) ), esc_html__( 'Lost Password?', 'paid-memberships-pro' ) );
+				$links['lost_password'] = sprintf( '<a href="%s">%s</a>', esc_url( add_query_arg( 'action', urlencode( 'reset_pass' ), pmpro_login_url() ) ), esc_html__( 'Forgot Password?', 'paid-memberships-pro' ) );
 			}
 
 			$links = apply_filters( 'pmpro_login_forms_handler_nav', $links, $pmpro_form );
