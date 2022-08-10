@@ -907,7 +907,7 @@ msgstr ""
 #: adminpages/orders.php:735
 #: includes/functions.php:2903
 msgid "Tax"
-msgstr ""
+msgstr "GST"
 
 #: pages/invoice.php:82
 #: includes/functions.php:2857
@@ -920,7 +920,7 @@ msgid "Coupon"
 msgstr ""
 
 #: pages/invoice.php:84
-#: adminpages/orders.php:320
+#: adminpages/orders.php:320git
 #: adminpages/orders.php:602
 #: adminpages/dashboard.php:289
 #: adminpages/orders.php:644
