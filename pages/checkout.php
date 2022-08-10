@@ -581,8 +581,8 @@ if ( empty( $default_gateway ) ) {
     });
 
     if(document.getElementById('taxregion').checked) {
-        jQuery("#pmpro_checkout_box-GST").show();
+        jQuery("#pmpro_checkout_box-GST_details").show();
     } else {
-        jQuery("#pmpro_checkout_box-GST").hide();
+        jQuery("#pmpro_checkout_box-GST_details").hide();
     }
 </script>
