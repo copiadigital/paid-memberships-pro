@@ -578,11 +578,10 @@ if ( empty( $default_gateway ) ) {
 <script>
     jQuery(document).ready(function(){
         jQuery(".custom-checkbox").appendTo('#pmpro_user_fields');
+        jQuery("#pmpro_checkout_box-GST_details").hide();
     });
 
-    if(document.getElementById('taxregion').checked) {
-        jQuery("#pmpro_checkout_box-GST_details").show();
-    } else {
-        jQuery("#pmpro_checkout_box-GST_details").hide();
-    }
+    jQuery("#taxregion + label").click(function(){
+        jQuery("#pmpro_checkout_box-GST_details").toggle();
+    })
 </script>
