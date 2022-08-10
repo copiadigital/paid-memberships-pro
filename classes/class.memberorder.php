@@ -4,7 +4,7 @@
 		/**
 		 * The Member Order ID
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var int
 		 */
@@ -13,7 +13,7 @@
 		/**
 		 * The Member Order Identifier, also used as invoie number
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -22,7 +22,7 @@
 		/**
 		 * User ID
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var int
 		 */
@@ -31,7 +31,7 @@
 		/**
 		 * Level ID
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var int
 		 */
@@ -40,7 +40,7 @@
 		/**
 		 * Session ID
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -49,7 +49,7 @@
 		/**
 		 * PayPal Token 
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -58,7 +58,7 @@
 		/**
 		 * Contain a billing address object
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var object
 		 */
@@ -67,7 +67,7 @@
 		/**
 		 * Subtotal value
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var float
 		 */
@@ -76,16 +76,16 @@
 		/**
 		 * Tax Amount
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var float
 		 */
-		private $tax = 0.00;
+		private $tax = null;
 
 		/**
 		 * Discount Code Amount
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var float
 		 */
@@ -94,7 +94,7 @@
 		/**
 		 * Certificate ID - Notice of deprecation started in 1.8.10. Should no longer be used.
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 *
@@ -105,7 +105,7 @@
 		/**
 		 * Certificate Amount - Notice of deprecation started in 1.8.10. Should no longer be used.
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 *
@@ -116,7 +116,7 @@
 		/**
 		 * Total order amount
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var float
 		 */
@@ -125,7 +125,7 @@
 		/**
 		 * The gateway name or label used (Stripe, Check etc)
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -134,7 +134,7 @@
 		/**
 		 * The Card Type used (Visa etc)
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -143,7 +143,7 @@
 		/**
 		 * Account or Card Number (only shows last 4 digits)
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -152,7 +152,7 @@
 		/**
 		 * Card Expiration Month (02)
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -161,7 +161,7 @@
 		/**
 		 * Expiration Year (22)
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -170,7 +170,7 @@
 		/**
 		 * The Order Status
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -179,7 +179,7 @@
 		/**
 		 * The Gateway identifier (stripe, paypalexpress etc)
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -188,7 +188,7 @@
 		/**
 		 * The Gateway Environment (live, sandbox)
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -197,7 +197,7 @@
 		/**
 		 * The payment Transaction ID
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -206,7 +206,7 @@
 		/**
 		 * The Subscription Transaction ID
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -215,7 +215,7 @@
 		/**
 		 * The time the order was created (UTC YYYY-MM-DD HH:MM:SS)
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -224,7 +224,7 @@
 		/**
 		 * The Affiliate ID 
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var int
 		 */
@@ -233,7 +233,7 @@
 		/**
 		 * The Affiliate Sub ID
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -242,7 +242,7 @@
 		/**
 		 * The Order notes
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -251,7 +251,7 @@
 		/**
 		 * The Checkout ID - used to track multiple orders during a single checkout
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var string
 		 */
@@ -260,7 +260,7 @@
 		/**
 		 * Defines an array of optionally used properties
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 *
 		 * @var array
 		 */
@@ -275,6 +275,16 @@
 
 			//set up the gateway
 			$this->setGateway(pmpro_getOption("gateway"));
+
+			//set up the billing address structure
+			$this->billing = new stdClass();
+			$this->billing->name = '';
+			$this->billing->street = '';
+			$this->billing->city = '';
+			$this->billing->state = '';
+			$this->billing->zip = '';
+			$this->billing->country = '';
+			$this->billing->phone = '';
 
 			//get data if an id was passed
 			if ( $id ) {
@@ -295,11 +305,11 @@
 		/**
 		 * Get Magic Method
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 * 
 		 * @param string $property The property we want to get
 		 *
-		 * @return mixed|null
+		 * @return mixed|void
 		 */
 		public function __get( $property ) {
 
@@ -320,7 +330,7 @@
 		/**
 		 * Set Magic Method
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 * 
 		 * @param string $property The property we want to reference
 		 * @param string $value The value we want to set for $property
@@ -355,7 +365,7 @@
 		/**
 		 * Is Set Magic Method
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 * 
 		 * @param string $property The property we want to reference
 		 *
@@ -366,11 +376,26 @@
 			return property_exists( $this, $property ) || isset( $this->other_properties[ $property ] );
 	
 		}
+
+		/**
+		 * Unset Magic Method.
+		 *
+		 * @since 2.9.1
+		 * 
+		 * @param string $property The property we want to unset.
+		 */
+		public function __unset( $property ) {
+			if ( property_exists( $this, $property ) ) {
+				unset( $this->{$property} );
+			} else {
+				unset( $this->other_properties[ $property ] );
+			}
+		}
 		
 		/**
 		 * Get a specific order by ID, code, or an array of arguments
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 * 
 		 * @param mixed $args Specify an order ID, code, or array of arguments to find an order for.
 		 *
@@ -419,7 +444,7 @@
 		/**
 		 * Get orders based on various parameters
 		 *
-		 * @since TBD
+		 * @since 2.9
 		 * 
 		 * @param array $args Specify what you'd like to filter the query by
 		 *
@@ -1275,13 +1300,11 @@
 			$this->certificateamount = "";
 
 			//calculate total
-			if(!empty($this->total))
+			if ( ! empty( $this->total ) ) {
 				$total = $this->total;
-			elseif ( ! isset( $this->total ) || $this->total === '' ) {
+			} else {
 				$total = (float)$amount + (float)$tax;
 				$this->total = $total;
-			} else {
-				$total = 0;
 			}
 			
 			//these fix some warnings/notices
@@ -1456,7 +1479,7 @@
 					 * @param $this object The current member order object
 					 * @param $original_status The original status before changing to the new status
 					 * 
-					 * @since TBD
+					 * @since 2.9
 					 */
 					do_action( 'pmpro_order_status_' . $this->status, $this, $this->original_status );
 					
