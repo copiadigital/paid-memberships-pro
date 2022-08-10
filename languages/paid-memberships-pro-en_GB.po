@@ -843,7 +843,7 @@ msgstr ""
 #: includes/functions.php:2904
 #: includes/functions.php:2906
 msgid "Tax"
-msgstr ""
+msgstr "GST"
 
 #: pages/invoice.php:82
 #: includes/functions.php:2857
@@ -3708,7 +3708,7 @@ msgstr ""
 #: adminpages/paymentsettings.php:241
 #: adminpages/paymentsettings.php:239
 msgid "Sales Tax"
-msgstr ""
+msgstr "GST"
 
 #: adminpages/paymentsettings.php:460
 #: adminpages/paymentsettings.php:237
