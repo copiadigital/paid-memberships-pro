@@ -103,8 +103,7 @@ function pmpro_shortcode_account($atts, $content=null, $code="")
 											$pmpro_member_action_links['change'] = sprintf( '<a id="pmpro_actionlink-change" href="%s">%s</a>', pmpro_url( 'levels' ), esc_html__( 'Change', 'paid-memberships-pro' ) );
 										}
 
-										// $pmpro_member_action_links['cancel'] = sprintf( '<a id="pmpro_actionlink-cancel" href="%s">%s</a>', esc_url( add_query_arg( 'levelstocancel', $level->id, 
-pmpro_url( 'cancel' ) ) ), esc_html__( 'Cancel', 'paid-memberships-pro' ) );
+										// $pmpro_member_action_links['cancel'] = sprintf( '<a id="pmpro_actionlink-cancel" href="%s">%s</a>', esc_url( add_query_arg( 'levelstocancel', $level->id, pmpro_url( 'cancel' ) ) ), esc_html__( 'Cancel', 'paid-memberships-pro' ) );
 
 										/**
 										 * Filter the member action links.
