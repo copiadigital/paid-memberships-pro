@@ -830,7 +830,7 @@ msgstr ""
 #: adminpages/orders.php:571
 #: pages/checkout.php:250
 msgid "Billing Address"
-msgstr ""
+msgstr "Billing Details"
 
 #: pages/invoice.php:50
 #: pages/account.php:105
