@@ -444,8 +444,8 @@
 				
 				$this->data["invoice_id"] = $invoice->code;
 				$this->data["invoice_total"] = pmpro_formatPrice($invoice->total);
-				$this->data['invoice_subtotal'] = pmpro_formatPrice($invoice->subtotal),
-				$this->data['invoice_tax'] = pmpro_formatPrice($invoice->tax),
+				$this->data['invoice_subtotal'] = pmpro_formatPrice($invoice->subtotal);
+				$this->data['invoice_tax'] = pmpro_formatPrice($invoice->tax);
 				$this->data["invoice_date"] = date_i18n( get_option( 'date_format' ), $invoice->getTimestamp() );
 				$this->data["billing_name"] = $invoice->billing->name;
 				$this->data["billing_street"] = $invoice->billing->street;
@@ -548,8 +548,8 @@
 			if( in_array( $this->template, array( 'checkout_express_admin', 'checkout_check_admin', 'checkout_trial_admin', 'checkout_paid_admin' ) ) ) {
 				$this->data["invoice_id"] = $invoice->code;
 				$this->data["invoice_total"] = pmpro_formatPrice($invoice->total);
-				$this->data['invoice_subtotal'] = pmpro_formatPrice($invoice->subtotal),
-				$this->data['invoice_tax'] = pmpro_formatPrice($invoice->tax),
+				$this->data['invoice_subtotal'] = pmpro_formatPrice($invoice->subtotal);
+				$this->data['invoice_tax'] = pmpro_formatPrice($invoice->tax);
 				$this->data["invoice_date"] = date_i18n(get_option('date_format'), $invoice->getTimestamp());
 				$this->data["billing_name"] = $invoice->billing->name;
 				$this->data["billing_street"] = $invoice->billing->street;
