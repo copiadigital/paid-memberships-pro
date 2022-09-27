@@ -271,7 +271,6 @@ $pmpro_required_billing_fields = array(
 	"bcity"           => $bcity,
 	"bstate"          => $bstate,
 	"bzipcode"        => $bzipcode,
-	"bphone"          => $bphone,
 	"bemail"          => $bemail,
 	"bcountry"        => $bcountry,
 	"CardType"        => $CardType,
