@@ -830,7 +830,7 @@ msgstr ""
 #: adminpages/orders.php:571
 #: pages/checkout.php:250
 msgid "Billing Address"
-msgstr ""
+msgstr "Billing Details"
 
 #: pages/invoice.php:50
 #: pages/account.php:105
@@ -4022,7 +4022,7 @@ msgstr ""
 #: adminpages/paymentsettings.php:241
 #: adminpages/paymentsettings.php:239
 msgid "Sales Tax"
-msgstr ""
+msgstr "GST"
 
 #: adminpages/paymentsettings.php:460
 #: adminpages/paymentsettings.php:237

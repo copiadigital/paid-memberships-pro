@@ -575,3 +575,13 @@ if ( empty( $default_gateway ) ) {
 <?php do_action('pmpro_checkout_after_form'); ?>
 
 </div> <!-- end pmpro_level-ID -->
+<script>
+    jQuery(document).ready(function(){
+        jQuery(".custom-checkbox").appendTo('#pmpro_user_fields');
+        jQuery("#pmpro_checkout_box-GST_details").hide();
+    });
+
+    jQuery("#taxregion + label").click(function(){
+        jQuery("#pmpro_checkout_box-GST_details").toggle();
+    })
+</script>

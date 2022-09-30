@@ -585,7 +585,7 @@ class PMPro_Members_List_Table extends WP_List_Table {
 			}
 			// If there is a recurring payment, show the recurring payment amount and cycle.
 			if ( (float)$item['billing_amount'] > 0 ) {
-				$fee .= pmpro_escape_price( pmpro_formatPrice( $item['billing_amount'] ) );
+				$fee .= esc_html__( 'NR 50,000.00', 'paid-memberships-pro' );
 				$fee .= esc_html__( ' per ', 'paid-memberships-pro' );
 				if ( $item['cycle_number'] > 1 ) {
 					$fee .= $item['cycle_number'] . " " . $item['cycle_period'] . "s";
